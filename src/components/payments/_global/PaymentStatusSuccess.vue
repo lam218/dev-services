@@ -59,7 +59,7 @@ export default {
 <style>
 .dcww-payments-status__icon--large {
     width: 56px;
-    padding: 20px 0 30px;
+    padding: 20px 0;
 }
 
 .dcww-field-summary-list {
@@ -91,7 +91,7 @@ export default {
 
 @media only screen and (min-width: 768px) {
     .dcww-payments-status__icon--large {
-        padding-bottom: 40px;
+        padding: 30px 0;
     }
 
     .dcww-field-summary-item {
@@ -112,7 +112,7 @@ export default {
 
 @media only screen and (min-width: 1024px) {
     .dcww-payments-status__icon--large {
-        padding-bottom: 50px;
+        padding: 50px 0;
     }
 
     .dcww-field-summary-item__label {
