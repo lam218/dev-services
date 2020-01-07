@@ -18,12 +18,12 @@
             <div class="dcww-payments-form__content">
                 <div class="dcww-field-summary-list">
                     <div class="dcww-field-summary-item">
-                        <div class="dcww-field-summary-item__label">Quotation number</div>
-                        <div class="dcww-field-summary-item__value">1234567890</div>
-                    </div>
-                    <div class="dcww-field-summary-item">
                         <div class="dcww-field-summary-item__label">Customer number</div>
                         <div class="dcww-field-summary-item__value">00000000</div>
+                    </div>
+                    <div class="dcww-field-summary-item">
+                        <div class="dcww-field-summary-item__label">Quotation number</div>
+                        <div class="dcww-field-summary-item__value">1234567890</div>
                     </div>
                     <div class="dcww-field-summary-item">
                         <div class="dcww-field-summary-item__label">Amount</div>
