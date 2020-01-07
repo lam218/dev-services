@@ -299,7 +299,7 @@ input {
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     padding: 9px 20px;
-    transition: box-shadow 0.25s ease-in-out, background 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
     text-align: center;
     cursor: pointer;
 }
