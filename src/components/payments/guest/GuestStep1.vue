@@ -449,8 +449,6 @@ select::-ms-expand {
 
     .dcww-payments-form__container {
         padding: 30px 0 70px;
-        /* -ms-grid-columns: (1fr)[12];
-        grid-template-columns: repeat(12, 1fr); */
     }
 
     .dcww-payments-form__header {
@@ -460,9 +458,6 @@ select::-ms-expand {
 
     .dcww-payments-form__content {
         padding-top: 40px;
-        /* -ms-grid-column: 2;
-        -ms-grid-column-span: 10;
-        grid-column: 2/12; */
     }
 
     .dcww-payments-form__content-inner {
