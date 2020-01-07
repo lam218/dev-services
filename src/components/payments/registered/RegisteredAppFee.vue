@@ -141,46 +141,4 @@ export default {
 };
 </script>
 <style>
-
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-  -moz-appearance:textfield;
-}
-
-.dcww-field__dropdown {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background: #fff url('../../../assets/chevron-down.svg') no-repeat 95% 50%;
-    background-size: 32px;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 1px #65858f;
-    box-shadow: 0 0 0 1px #65858f;
-    border: 0;
-    min-height: 60px;
-    margin-left: 10px;
-    padding: 18px 35px 18px 20px;
-    width: 100%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
-    color: #09333f;
-    line-height: normal;
-}
-
-.dcww-field__dropdown:first-child {
-    margin-left: 0;
-}
-
-.dcww-field__dropdown--mini {
-    width: 100px;
-}
-
 </style>

@@ -219,8 +219,6 @@ input {
 }
 
 .dcww-fieldset {
-    /* display: flex;
-    flex-flow: column; */
     padding-top: 30px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
