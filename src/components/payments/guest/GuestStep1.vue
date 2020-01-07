@@ -269,6 +269,7 @@ input {
     padding: 18px;
     border: 0;
     box-shadow: 0 0 0 1px #65858f;
+    -webkit-appearance: none;
     line-height: normal;
     max-width: 285px;
 }

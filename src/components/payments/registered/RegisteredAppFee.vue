@@ -22,7 +22,7 @@
                         <div class="dcww-field-summary-item__value">00000000</div>
                     </div>
                     <div class="dcww-field-summary-item">
-                        <div class="dcww-field-summary-item__label">Quotation number</div>
+                        <div class="dcww-field-summary-item__label">Case ID</div>
                         <div class="dcww-field-summary-item__value">1234567890</div>
                     </div>
                     <div class="dcww-field-summary-item">
