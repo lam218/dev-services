@@ -16,7 +16,7 @@
                 <p class="dcww-payments-status__message">Unfortunately, your payment was declined.</p>
                 <p class="dcww-payments-status__message">Please call an agent on:</p>
                 <div class="dcww-payments-status__contact">
-                    <img src="../../../assets/phone.svg" class="dcww-payments-status__icon-error">
+                    <img src="../../../assets/phone.svg" class="dcww-payments-status__icon-phone">
                     <a class="dcww-payments-status__contact-tel" href="tel:08000520145">0800 052 0145</a>
                 </div>
             </div>
