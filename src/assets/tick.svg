@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60.1 (101010) - https://sketch.com -->
+    <title>31f7c12b-dec5-4e9c-b9dd-4f71704dc28a@1.00x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M13.7113607,20.5120722 L23.1251761,7.63707926 C23.6055346,6.9801074 24.5795456,6.8022814 25.3006907,7.23989376 C26.0218357,7.67750613 26.2170318,8.56484196 25.7366733,9.22181382 L14.2001286,25 L6.45952251,17.9482143 C5.84682583,17.3900402 5.84682583,16.4850612 6.45952251,15.9268871 C7.07221919,15.368713 8.06559678,15.368713 8.67829346,15.9268871 L13.7113607,20.5120722 Z" id="path-1"></path>
+    </defs>
+    <g id="--assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="--asset-/-icon-/-tick">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Path-3" fill="#1a8c44" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
