@@ -59,7 +59,7 @@ export default {
 <style>
 .dcww-payments-status__icon--large {
     width: 56px;
-    padding: 20px 0 30px;
+    padding: 20px 0;
 }
 
 .dcww-field-summary-list {
@@ -70,19 +70,27 @@ export default {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin-bottom: 10px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
     grid-template-columns: repeat(6, 1fr);
     grid-column-gap: 20px;
 }
 
 .dcww-field-summary-item__label {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
     grid-column: 1/7;
+    -ms-grid-row: 1;
     grid-row: 1;
     padding-left: 10px;
 }
 
 .dcww-field-summary-item__value {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
     grid-column: 1/7;
+    -ms-grid-row: 2;
     grid-row: 2;
     padding-left: 10px;
     font-weight: 700;
@@ -91,20 +99,26 @@ export default {
 
 @media only screen and (min-width: 768px) {
     .dcww-payments-status__icon--large {
-        padding-bottom: 40px;
+        padding: 30px 0;
     }
 
     .dcww-field-summary-item {
+        -ms-grid-columns: (1fr)[12];
         grid-template-columns: repeat(12, 1fr);
     }
     
     .dcww-field-summary-item__label {
         padding-left: 20px;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 4;
         grid-column: 2/6;
     }
 
     .dcww-field-summary-item__value {
+        -ms-grid-column: 6;
+        -ms-grid-column-span: 6;
         grid-column: 6/12;
+        -ms-grid-row: 1;
         grid-row: 1;
     }
 
@@ -112,10 +126,12 @@ export default {
 
 @media only screen and (min-width: 1024px) {
     .dcww-payments-status__icon--large {
-        padding-bottom: 50px;
+        padding: 50px 0;
     }
 
     .dcww-field-summary-item__label {
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 3;
         grid-column: 3/6;
     }
 }

@@ -33,21 +33,21 @@
                 <form id="dcwwForm">
                     <div class="dcww-fieldset">
                         <div class="dcww-fieldset__fields">
-                            <div class="dcww-fieldset__row">
+                            <div class="dcww-fieldset__row dcww-grid-row-1">
                                 <div class="dcww-field">
                                     <label class="dcww-field__label">Cardholder name</label>
                                     <input type="text" class="dcww-field__input" placeholder="Cardholder name">
                                     <p class="dcww-field__validation">Validation message</p>
                                 </div>
                             </div>
-                            <div class="dcww-fieldset__row">
+                            <div class="dcww-fieldset__row dcww-grid-row-2">
                                 <div class="dcww-field">
                                     <label class="dcww-field__label">Card number</label>
                                     <input type="number" class="dcww-field__input" placeholder="Card number">
                                     <p class="dcww-field__validation">Validation message</p>
                                 </div>
                             </div>
-                            <div class="dcww-fieldset__row">
+                            <div class="dcww-fieldset__row dcww-grid-row-3">
                                 <div class="dcww-field">
                                     <label class="dcww-field__label">Start date</label>
                                     <div class="dcww-field__input-date">
@@ -76,7 +76,7 @@
                                     <p class="dcww-field__validation">Validation message</p>
                                 </div>
                             </div>
-                            <div class="dcww-fieldset__row">
+                            <div class="dcww-fieldset__row dcww-grid-row-4">
                                 <div class="dcww-field">
                                     <label class="dcww-field__label">Expiry date</label>
                                     <div class="dcww-field__input-date">
@@ -105,7 +105,7 @@
                                     <p class="dcww-field__validation">Validation message</p>
                                 </div>
                             </div>
-                            <div class="dcww-fieldset__row">
+                            <div class="dcww-fieldset__row dcww-grid-row-5">
                                 <div class="dcww-field">
                                     <label class="dcww-field__label">CV2</label>
                                     <input type="number" class="dcww-field__input dcww-field__input--mini" placeholder="CV2" maxlength="10">

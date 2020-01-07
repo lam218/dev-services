@@ -66,7 +66,6 @@ export default {
 };
 </script>
 <style>
-
 input[type=checkbox] {
     position: absolute;
     opacity: 0;
@@ -86,6 +85,8 @@ input[type=checkbox]:checked~label:after {
 
 .dcww-checkbox-field {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     cursor: pointer;
 }
@@ -133,8 +134,8 @@ input[type=checkbox]:checked~label:after {
     border: solid #fff;
     border-width: 0 2px 2px 0;
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
 }
-
 
 </style>

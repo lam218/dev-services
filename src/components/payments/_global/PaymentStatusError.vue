@@ -41,8 +41,9 @@ export default {
 };
 </script>
 <style>
-
 .dcww-payments-status {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
     grid-column: 1/13;
     text-align: center;
 }
@@ -61,9 +62,15 @@ export default {
 }
 
 .dcww-payments-status__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .dcww-payments-status__contact-tel {
