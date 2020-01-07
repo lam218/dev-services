@@ -295,7 +295,7 @@ input {
     border-radius: 4px;
     display: inline-flex;
     line-height: 1.75;
-    font-size: 18;
+    font-size: 18px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     padding: 9px 20px;
