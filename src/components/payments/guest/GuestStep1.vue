@@ -267,7 +267,7 @@ select::-ms-expand {
     padding-left: 10px;
     -ms-grid-column: 1;
     -ms-grid-column-span: 5;
-    grid-column: 1/6;
+    grid-column: 1/7;
 }
 
 .dcww-fieldset__row + .dcww-fieldset__row {
@@ -318,8 +318,8 @@ select::-ms-expand {
             box-shadow: 0 0 0 1px #65858f;
     -webkit-appearance: none;
     line-height: normal;
-    max-width: 285px;
     width: 100%;
+    max-width: 280px;
 }
 
 .dcww-field__input--mini {
