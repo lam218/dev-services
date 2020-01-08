@@ -319,6 +319,7 @@ select::-ms-expand {
     -webkit-appearance: none;
     line-height: normal;
     max-width: 285px;
+    width: 100%;
 }
 
 .dcww-field__input--mini {
